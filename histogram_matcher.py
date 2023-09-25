@@ -4,13 +4,13 @@ from skimage.exposure import match_histograms
 import cv2
 import numpy as np
 # reading main image
-img1 = cv2.imread("images_to_convert/07_26_23_Mickeys_059.jpg")[:,:,::-1]
+img1 = cv2.imread("images_to_convert/E4DB57F0-374A-4D1A-82FC-82079525CB63.jpg")[:,:,::-1]
   
 # checking the number of channels
 print('No of Channel is: ' + str(img1.ndim))
   
 # reading reference image
-img2 = cv2.imread('lomography/2.jpg')[:,:,::-1]
+img2 = cv2.imread('euphoria/6.jpeg')[:,:,::-1]
 
 # checking the number of channels
 print('No of Channel is: ' + str(img2.ndim))
